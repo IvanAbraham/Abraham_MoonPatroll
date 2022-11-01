@@ -1,0 +1,6 @@
+struct Floor
+{
+
+	int height;
+
+};
