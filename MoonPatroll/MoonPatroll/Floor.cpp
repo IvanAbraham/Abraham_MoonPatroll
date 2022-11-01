@@ -1,6 +1,12 @@
-struct Floor
+#include "Floor.h"
+
+Floor initfloor(int SWidth, int SHeight)
 {
 
-	int height;
+	Floor newfloor;
 
-};
+	newfloor.height = SHeight - 30;
+	newfloor.Size.x = SWidth;
+	newfloor.Size.y = SHeight / 2;
+
+}
